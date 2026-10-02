@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #2A1942;
+    background-image: url(img/peizaj.jpg);
+    background-repeat: no-repeat; 
+}
+
+.main_img {
+    width: 750px;;
+    height: 730px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+.grey_img {
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;   
+}
+
+
+.logo {
+    font-family: 'Kufam', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    color: #fff;
+}
+
+.reg_back {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    position: absolute;
+    left: 600px;
+    top: 25px;
+
+    color: #fff;
+    background-color: #9A7FC0B2;
+    padding: 10px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.logo_abz {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+
+  ;
+    text-decoration: underline;
+    line-height: 1.2;
+
+    position: absolute;
+    top: 600px;
+    left: 380px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
